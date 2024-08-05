@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins";
+} 
+
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.part{
+    padding-bottom: 50px;
+    margin: 0px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* position: relative; */
+    /* top: 0px; */
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: rgba(135, 207, 235, 0.596);
+    height: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+    height: 40px;
+    text-decoration: none;
+}
+
+.nav_links{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav_link{
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav_link:hover{
+    background: white;
+    color: red;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 800px;
+    color: black;
+    text-decoration: none;  
+}
+
+.logo:hover{
+   background-color: white;
+   color: red;
+}
+
+.skyscraper{
+    background-image: url(./architect.jpg);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    margin-top: 45px;
+}
+
+.br-logo{
+    background-color: rgb(92, 86, 86);
+    padding: 10px;
+}
+
+.inner-name{
+    font-size: 24px;
+    color: black;
+}
+
+.shouse{
+    background-image: url(./summerhouse1.jpg);
+    height: 60vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.bhouse{
+    background-image: url(./brickhouse1.jpg);
+    height: 60vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.R{
+    background-image: url(./renovated1.jpg);
+    height: 60vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.barn{
+    background-image: url(./barnhouse1.jpg);
+    height: 60vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.Summer{
+    background-image: url(./summerhouse2.jpg);
+    height: 60vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.brick{
+    background-image: url(./brickhouse2.jpg);
+    height: 60vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.r{
+    background-image: url(./renovated2.jpg);
+    height: 60vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.B{
+    background-image: url(./barnhouse2.jpg);
+    height: 60vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.biggie{
+    background-color:black;
+    width: 20vh;
+    color: white;
+    height: 5vh;
+    padding-left: 30px;
+    padding-top: 10px;
+    align-items: center;
+    margin-top: auto;
+    font-size: 12px;
+}
+
+.adult{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100px;
+}
+
+.info{
+    display: flex;
+    padding-top: 70px;
+    letter-spacing: normal;
+    font-size: 11px;
+}
+
+.info .word{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.info .letters{
+    font-size: 15px;
+    text-align: justify;
+    padding-inline-start: 190px;
+}
+
+.info .text{
+    font-size: 15px;
+    text-align: justify;
+    padding-inline-start: 200px;
+}
+
+.info .sentence{
+    font-size: 15px;
+    text-align: justify;
+    padding-inline-start: 170px;
+}
+
+hr{
+    background-color: rgba(128, 128, 128, 0.247);
+    display: block;
+    margin-top: 0, 5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    height: 2px;
+    width: 100%;
+}
+
+button{
+    font-size: 15px;
+    background-color: grey;
+    color: lightblue;
+    width: 150px;
+    height: 30px;
+}
+
+button:hover{
+    background-color: white;
+    color: purple;
+}
+
+.rash{
+    font-size: 15px;
+    text-align: justify;
+    padding-inline-start: 10px;
+}
+
+.ford{
+    font-size: 15px;
+    text-align: justify;
+    padding-inline-start: 240px;
+}
+
+.mar{
+    font-size: 15px;
+    text-align: justify;
+    padding-inline-start: 230px;
+}
+
+.cus{
+    font-size: 15px;
+    text-align: justify;
+    padding-inline-start: 1150px;
+    position: relative;
+    bottom: 30px;
+}
+
+.long{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.heading{
+    padding-top: 30px;
+}
+
+.press{
+    padding-top: 10px;
+}
+
+.gap input {
+    display: block;
+    width: 97vw;
+}
+
+.message{
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.ground-floor{
+    background-image: url(./map.jpg);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.ending{
+    background-color: black;
+    color: white;
+    height: 70px;   
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.last:hover{
+    color: red;
+}
